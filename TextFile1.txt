@@ -1,0 +1,17 @@
+MongoDB veritabanýna eriþme:
+
+MongoDB baðlantýsýný test etmek için; HomeControllerýn Index actionýna
+
+-MongoDB de Connect sekmesinden connection string kodumuzu kopyalayýp yapýþtýrdým
+-NuGet paketlerinden "MongoDb driver" indirildi 
+-Models klasörüne Test.cs ve Address.cs class oluþturuldu  
+
+-Databasemize kayýt atmak için;
+HomeController Index actionýnda -> Test collectionýmýzýn içini doldurduk.new diyerek fieldlara deðerler atadýk
+-InsertOne komutuyla da database'e ekledim
+
+Özetle;
+1.MongoDB database'ne baðlandým
+2.Test collectiona(tabloma) baðlandým
+3.Test tablomdan nesne oluþturdum
+4.Oluþturuduðum nesneyi database'e kaydettim
